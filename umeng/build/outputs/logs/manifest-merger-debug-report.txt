@@ -1,0 +1,180 @@
+-- Merging decision tree log ---
+meta-data#UMENG_APPKEY
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:20:9-22:47
+	android:value
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:22:13-44
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:21:13-40
+meta-data#QQ_APPID
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:27:9-29:43
+	android:value
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:29:13-40
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:28:13-36
+meta-data#QQ_APPKEY
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:31:9-33:44
+	android:value
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:33:13-41
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:32:13-37
+meta-data#WX_APPID
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:36:9-38:43
+	android:value
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:38:13-40
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:37:13-36
+meta-data#WX_APPKEY
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:40:9-42:44
+	android:value
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:42:13-41
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:41:13-37
+meta-data#Appkey
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:45:9-47:41
+	android:value
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:47:13-38
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:46:13-34
+meta-data#MessageSecret
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:48:9-50:48
+	android:value
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:50:13-45
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:49:13-41
+meta-data#UMENG_MESSAGE_SECRET
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:51:9-53:55
+	android:value
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:53:13-52
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:52:13-48
+data
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:69:17-61
+	android:scheme
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:69:23-58
+manifest
+ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:1:1-92:12
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:1:1-92:12
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:1:1-92:12
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:1:1-92:12
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:1:1-92:12
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:1:1-92:12
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:1:1-92:12
+	package
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:1:1-92:12
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:1:1-92:12
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:11:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:15:22-78
+application
+ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:17:5-90:19
+meta-data#UMENG_CHANNEL
+ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:24:9-72
+	android:value
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:24:20-41
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:24:42-70
+activity#com.tencent.tauth.AuthActivity
+ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:58:9-71:20
+	tools:node
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:62:13-33
+	android:launchMode
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:60:13-44
+	android:noHistory
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:59:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tencent1111313549
+ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:63:13-70:29
+action#android.intent.action.VIEW
+ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:64:17-69
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:64:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:66:17-76
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:66:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:67:17-78
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:67:27-75
+activity#com.tencent.connect.common.AssistActivity
+ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:73:9-77:36
+	tools:node
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:77:13-33
+	android:configChanges
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:75:13-63
+	android:theme
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:76:13-72
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:74:13-69
+activity#com.honeycom.story.wxapi.WXEntryActivity
+ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:81:9-87:43
+	tools:node
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:86:13-33
+	android:exported
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:84:13-36
+	tools:ignore
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:87:13-40
+	android:configChanges
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:83:13-74
+	android:theme
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:85:13-72
+	android:name
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml:82:13-68
+uses-sdk
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+		ADDED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
+		INJECTED from D:\zhou\git2\honeycom-saas-app\umeng\src\main\AndroidManifest.xml
