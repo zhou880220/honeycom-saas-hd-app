@@ -15,7 +15,6 @@ import com.umeng.commonsdk.utils.UMUtils;
 /**
  * Created by zhoujr on 20-4-5.
  */
-
 public class App extends Application {
 
     private static Context sInstance;
