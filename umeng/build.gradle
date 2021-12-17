@@ -10,7 +10,7 @@ android {
         // 清单占位符
         manifestPlaceholders = [
                 // 友盟 AppKey
-                'UMENG_APPKEY' : '6139b8635f798a55cafbe41d',
+                'UMENG_APPKEY' : '619daa12e0f9bb492b6c3cee',
                 // QQ AppId
                 'QQ_APPID' : '1111313549',
                 // QQ AppKey
@@ -20,11 +20,11 @@ android {
                 // 微信 AppKey
                 'WX_APPKEY' : '0c8c7cf831dd135a32b3e395ea459b5a',
                 //app key
-                'Appkey' : '6139b8635f798a55cafbe41d',
+                'Appkey' : '619daa12e0f9bb492b6c3cee',
                 //Umeng Message Secret
-                'UMENG_MESSAGE_SECRET' : '612fcad1a6a26d76af9a087b624fb4ea',
+                'UMENG_MESSAGE_SECRET' : '66498279c79c9bc10654a73ba1dd5b23',
                 //App Master Secret
-                'MessageSecret' : '612fcad1a6a26d76af9a087b624fb4ea'
+                'MessageSecret' : 'a2kuktszkzeai8w0yqjpqyzpd6aay9lv'
         ]
     }
 }
@@ -36,6 +36,7 @@ dependencies {
     api  'com.umeng.umsdk:common:9.4.4'// 必选
     api  'com.umeng.umsdk:asms:1.4.1'// 必选
     api 'com.umeng.umsdk:apm:1.5.2' // 错误分析升级为独立SDK，看crash数据请一定
+    api 'com.umeng.umsdk:push:6.4.5' //友盟Push依赖
 
     implementation  'com.umeng.umsdk:share-core:7.1.6'//分享核心库，必选
     implementation  'com.umeng.umsdk:share-board:7.1.6'//分享面板功能，可选
@@ -47,5 +48,5 @@ dependencies {
     implementation 'com.tencent.tauth:qqopensdk:3.53.0'//QQ官方依赖库，必选
     implementation 'com.squareup.okhttp3:okhttp:3.12.12'//QQ SDK在3.53.0版本及以上时需要集成
 
-    api 'com.umeng.umsdk:push:6.4.5' //友盟Push依赖
+
 }

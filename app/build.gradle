@@ -5,13 +5,13 @@ android {
 
     signingConfigs {
         debug {
-            storeFile file('honeycomb-saas.jks')
+            storeFile file('honeycomb-hd-saas.jks')
             storePassword '123456'
             keyAlias 'key0'
             keyPassword '123456'
         }
         release {
-            storeFile file('honeycomb-saas.jks')
+            storeFile file('honeycomb-hd-saas.jks')
             storePassword '123456'
             keyAlias 'key0'
             keyPassword '123456'
@@ -19,7 +19,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.honeycom.saas.mobile.hd"
+        applicationId "com.honeycom.saas.hd"
 
         // 仅保留中文语种的资源
         resConfigs 'zh'
@@ -62,11 +62,6 @@ dependencies {
 
     // 友盟封装
     implementation project(':umeng')
-
-    //友盟Push依赖
-//    implementation  'com.umeng.umsdk:common:9.4.4'// 必选
-//    implementation 'com.umeng.umsdk:push:6.4.5'
-
 
     //RxJava
     implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'

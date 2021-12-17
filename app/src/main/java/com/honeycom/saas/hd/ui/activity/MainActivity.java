@@ -517,7 +517,7 @@ public class MainActivity  extends BaseActivity {
                 Log.e(TAG, "handler = saveLoginInfo, data from web = " + data);
                 if (!TextUtils.isEmpty(data)) {
                     SPUtils.getInstance().put("loginData", data);
-                    function.onCallBack("android receive success");
+                    function.onCallBack("success");
                 }
             }
         });
@@ -538,7 +538,8 @@ public class MainActivity  extends BaseActivity {
             @Override
             public void handler(String data, CallBackFunction function) {
                 SPUtils.getInstance().remove("loginData");
-                function.onCallBack("android clear loginData success");
+                SPUtils.getInstance().remove("userInfo");
+                function.onCallBack("success");
             }
         });
 
@@ -746,6 +747,7 @@ public class MainActivity  extends BaseActivity {
         Map<String, String> paramsMap =  new HashMap<>();
         paramsMap.put("deviceToken", deviceToken);
         paramsMap.put("deviceType", "android");
+        paramsMap.put("platformType", Constant.platform_type);
         String jsonStr = new Gson().toJson(paramsMap);
         Log.e(TAG, "jsonStr: "+jsonStr);
         OkhttpUtil.okHttpPostJson(Constant.userPushRelation, jsonStr, headerMap, new CallBackUtil.CallBackString() {
@@ -1041,7 +1043,7 @@ public class MainActivity  extends BaseActivity {
             if (app_notice_list != null) {
 //            webView(Constant.APP_NOTICE_LIST);
                 if (app_notice_list.equals("咨询")) { //跳转到咨询页面
-                    webView(Constant.MyNews);
+//                    webView(Constant.MyNews);
                 } else if (app_notice_list.equals(Constant.NOTICE_LIST)) {
                     webView(Constant.text_url);
 //                    Log.e(TAG, "xiaomiMessage: " + xiaomiMessage);

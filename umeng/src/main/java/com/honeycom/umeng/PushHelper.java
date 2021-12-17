@@ -53,7 +53,7 @@ public class PushHelper {
         PushAgent pushAgent = PushAgent.getInstance(context);
 
         //TODO:需修改为您app/src/main/AndroidManifest.xml中package值
-        pushAgent.setResourcePackageName("com.honeycom.saas.mobile");
+        pushAgent.setResourcePackageName("com.honeycom.saas.hd");
 
         //推送设置
         pushSetting(context);

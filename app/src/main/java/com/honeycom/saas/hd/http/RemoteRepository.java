@@ -2,6 +2,7 @@ package com.honeycom.saas.hd.http;
 
 import com.honeycom.saas.hd.http.api.MesApi;
 import com.honeycom.saas.hd.http.bean.AdMessagePackage;
+import com.honeycom.saas.hd.util.Constant;
 
 import io.reactivex.Single;
 import okhttp3.ResponseBody;
@@ -44,7 +45,7 @@ public class RemoteRepository {
 
     /**************************启动**********************************/
     public Single<AdMessagePackage> getAdMessage(String url) {
-        return mesApi.getAdMessage(url, 1);
+        return mesApi.getAdMessage(url, 1, Constant.platform_type);
     }
 
     public Single<ResponseBody> downLoadFile(String fileUrl) {
