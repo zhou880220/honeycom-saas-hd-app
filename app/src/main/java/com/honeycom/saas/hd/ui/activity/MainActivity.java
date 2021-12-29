@@ -152,7 +152,7 @@ public class MainActivity  extends BaseActivity {
         }
 
         //加载页面
-        webView(Constant.text_url+"?r="+new Date().getTime());
+        webView(Constant.text_url);
 
         myHandler.postDelayed(new Runnable() {
             @Override
