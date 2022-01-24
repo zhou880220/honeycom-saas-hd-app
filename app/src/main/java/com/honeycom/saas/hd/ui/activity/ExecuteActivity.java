@@ -927,6 +927,8 @@ public class ExecuteActivity extends BaseActivity {
                     openImageChooserActivity();//打开系统拍照及相册选取
                 } else if (acceptTypes[0].equals("video/*")) {
                     openVideoChooserActivity();//打开系统拍摄/选取视频
+                }else {
+                    openFileChooserActivity(); //文件系统管理
                 }
                 return true;
             }

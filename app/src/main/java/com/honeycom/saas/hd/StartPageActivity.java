@@ -175,7 +175,8 @@ public class StartPageActivity extends BaseActivity {
         layoutSkip.setOnClickListener(v -> {
             Log.i(TAG,"skip :");
             continueCount = false;
-            checkH5Version();
+            toHome();
+//            checkH5Version();
 //            startHome();
 //            finish();
         });
@@ -202,7 +203,8 @@ public class StartPageActivity extends BaseActivity {
                                 case R.id.tv_dialog_ok:
                                     SPUtils.getInstance().put("isFirstUse", false);
                                     //这里是一开始的申请权限，不懂可以看我之前的博客
-                                    startHome();
+//                                    startHome();
+                                    toHome();
                                     break;
                                 case R.id.tv_dialog_no:
                                     finish();
@@ -227,7 +229,8 @@ public class StartPageActivity extends BaseActivity {
         if (timeCount == 3) {//数秒，超过3秒后如果没有网络，则进入下一个页面
             if (!NetworkUtils.isConnected()) {
                 continueCount = false;
-                checkH5Version();
+//                checkH5Version();
+                toHome();
 //                finish();
             }
             if (ivAdvertising !=null) {
@@ -239,8 +242,9 @@ public class StartPageActivity extends BaseActivity {
         }
         if (timeCount == initTimeCount) {
             continueCount = false;
-            checkH5Version();
+//            checkH5Version();
 //            finish();
+            toHome();
         }
         return timeCount;
     }
@@ -409,8 +413,9 @@ public class StartPageActivity extends BaseActivity {
             ivAdvertising.setImageBitmap(bitmap);
         } else {//加强用户体验，如果是获取到的bitmap为null，则直接跳过
             continueCount = false;
-            startHome();
-            finish();
+//            startHome();
+//            finish();
+            toHome();
         }
     }
 
@@ -557,7 +562,7 @@ public class StartPageActivity extends BaseActivity {
         Log.e(TAG, "initH5Page: start");
         FileDownloader.setup(mContext);
         FileDownloader.getImpl().create(url)
-                .setPath(Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator +"fengchaomeiyun" + File.separator +"hd_h5_zip")
+                .setPath(mContext.getExternalFilesDir(null)  + File.separator +"fengchaomeiyun" + File.separator +"hd_h5_zip")
                 .setForceReDownload(true)
                 .setListener(new FileDownloadListener() {
                     //等待
