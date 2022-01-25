@@ -95,7 +95,7 @@ public class StartPageActivity extends BaseActivity {
     private static final int ADDRESS_PERMISSIONS_CODE = 200;
     private static final String[] APPLY_PERMISSIONS_APPLICATION = { //相机扫码授权
             Manifest.permission.CAMERA,
-            Manifest.permission.RECORD_AUDIO,
+//            Manifest.permission.RECORD_AUDIO,
             Manifest.permission.READ_EXTERNAL_STORAGE,
             Manifest.permission.WRITE_EXTERNAL_STORAGE};
 
@@ -175,9 +175,9 @@ public class StartPageActivity extends BaseActivity {
         layoutSkip.setOnClickListener(v -> {
             Log.i(TAG,"skip :");
             continueCount = false;
-            toHome();
+//            toHome();
 //            checkH5Version();
-//            startHome();
+            startHome();
 //            finish();
         });
 
@@ -203,8 +203,8 @@ public class StartPageActivity extends BaseActivity {
                                 case R.id.tv_dialog_ok:
                                     SPUtils.getInstance().put("isFirstUse", false);
                                     //这里是一开始的申请权限，不懂可以看我之前的博客
-//                                    startHome();
-                                    toHome();
+                                    startHome();
+//                                    toHome();
                                     break;
                                 case R.id.tv_dialog_no:
                                     finish();
@@ -230,7 +230,7 @@ public class StartPageActivity extends BaseActivity {
             if (!NetworkUtils.isConnected()) {
                 continueCount = false;
 //                checkH5Version();
-                toHome();
+                startHome();
 //                finish();
             }
             if (ivAdvertising !=null) {
@@ -244,7 +244,7 @@ public class StartPageActivity extends BaseActivity {
             continueCount = false;
 //            checkH5Version();
 //            finish();
-            toHome();
+            startHome();
         }
         return timeCount;
     }

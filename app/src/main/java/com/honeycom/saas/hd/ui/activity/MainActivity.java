@@ -89,7 +89,7 @@ public class MainActivity  extends BaseActivity {
     private static final int ADDRESS_PERMISSIONS_CODE = 200;
     private static final String[] APPLY_PERMISSIONS_APPLICATION = { //相机扫码授权
             Manifest.permission.CAMERA,
-            Manifest.permission.RECORD_AUDIO,
+//            Manifest.permission.RECORD_AUDIO,
             Manifest.permission.WRITE_EXTERNAL_STORAGE};
 
     /**********************view******************************/
@@ -152,7 +152,7 @@ public class MainActivity  extends BaseActivity {
         }
 
         //加载页面
-        webView(Constant.text_url1);
+        webView(Constant.text_url);
 
         myHandler.postDelayed(new Runnable() {
             @Override

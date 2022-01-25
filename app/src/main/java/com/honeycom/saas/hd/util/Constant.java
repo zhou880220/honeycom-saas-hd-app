@@ -16,7 +16,7 @@ public class Constant {
 //    public static final String PAGE_URL = "http://mestestwebk8s.zhizaoyun.com:32811";//String.format("https://%s.zhizaoyun.com/", getCurrentDomain()[0]);
 //    public static final String INTERFACE_URL =  "http://mestestapik8s.zhizaoyun.com:32008";
 //    public static final String PAGE_URL = "https://fmtest-app-hd.zhizaoyun.com:30443";
-//    public static final String INTERFACE_URL =  "https://mestestapik8s.zhizaoyun.com:30443";
+//    public static final String INTERFACE_URL =  "https://mestest-api-hd.zhizaoyun.com:30443";
 
     /**
      * 生产环境前缀

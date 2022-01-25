@@ -114,7 +114,7 @@ public class ExecuteActivity extends BaseActivity {
     //请求相册 返回码
     private static final int REQUEST_PICK = 101;
     private static final String[] APPLY_PERMISSIONS_APPLICATION = { //第三方应用授权
-            Manifest.permission.RECORD_AUDIO,
+//            Manifest.permission.RECORD_AUDIO,
             Manifest.permission.READ_PHONE_STATE,
             Manifest.permission.ACCESS_FINE_LOCATION,
             Manifest.permission.WRITE_EXTERNAL_STORAGE,
