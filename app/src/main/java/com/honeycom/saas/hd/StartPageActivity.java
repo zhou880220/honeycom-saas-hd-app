@@ -562,7 +562,7 @@ public class StartPageActivity extends BaseActivity {
         Log.e(TAG, "initH5Page: start");
         FileDownloader.setup(mContext);
         FileDownloader.getImpl().create(url)
-                .setPath(mContext.getExternalFilesDir(null)  + File.separator +"fengchaomeiyun" + File.separator +"hd_h5_zip")
+                .setPath(Constant.saveH5FilePath) //Environment.getExternalStorageDirectory().getAbsolutePath()  + File.separator +"fengchaomeiyun" + File.separator +"hd_h5_zip")
                 .setForceReDownload(true)
                 .setListener(new FileDownloadListener() {
                     //等待

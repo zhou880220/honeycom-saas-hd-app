@@ -15,7 +15,7 @@ public class Constant {
      */
 //    public static final String PAGE_URL = "http://mestestwebk8s.zhizaoyun.com:32811";//String.format("https://%s.zhizaoyun.com/", getCurrentDomain()[0]);
 //    public static final String INTERFACE_URL =  "http://mestestapik8s.zhizaoyun.com:32008";
-//    public static final String PAGE_URL = "https://fmtest-app-hd.zhizaoyun.com:30443";
+//    public static final String PAGE_URL = "http://172.16.41.125:9542";//"https://fmtest-app-hd.zhizaoyun.com:30443";
 //    public static final String INTERFACE_URL =  "https://mestest-api-hd.zhizaoyun.com:30443";
 
     /**
@@ -28,6 +28,7 @@ public class Constant {
     public static final String INTERFACE_URL =  "https://indapp-api-hd.zhizaoyun.com";
 
     public static final String LOCAL_PAGE_URL = App.getContext().getExternalFilesDir(null) + File.separator +"fengchaomeiyun" + File.separator +"hd-saas-app";
+//    public static final String LOCAL_PAGE_URL = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator +"fengchaomeiyun" + File.separator +"hdsaas-app";
 
     public static String profile = "prod";//dev prod test
     public static final String platform_type = "hd";
@@ -68,6 +69,9 @@ public class Constant {
 
     public static final String saveH5FilePath = App.getContext().getExternalFilesDir(null)  + File.separator +"fengchaomeiyun" + File.separator +"hd_h5_zip";//FileUtils.getCachePath()+ File.separator + "h5_zip"+ File.separator ;
     public static final String unH5ZipPath = App.getContext().getExternalFilesDir(null) + File.separator +"fengchaomeiyun" + File.separator +"hd-saas-app";
+
+//    public static final String saveH5FilePath = Environment.getExternalStorageDirectory().getAbsolutePath()  + File.separator +"fengchaomeiyun" + File.separator +"hd_h5_zip";//FileUtils.getCachePath()+ File.separator + "h5_zip"+ File.separator ;
+//    public static final String unH5ZipPath = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator +"fengchaomeiyun" + File.separator +"hdsaasapp";
 
 
 }

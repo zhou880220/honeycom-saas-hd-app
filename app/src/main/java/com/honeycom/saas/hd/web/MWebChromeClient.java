@@ -59,6 +59,7 @@ public class MWebChromeClient extends WebChromeClient {
         Log.e("_TAG", "onReceivedTitle: " + title);
         if (title.contains("404") || title.contains("500") || title.contains("Error") || title.contains("找不到网页") || title.contains("网页无法打开")) {
 //            mWebError.setVisibility(View.VISIBLE);
+            Log.e("_TAG", "page error: " + title);
         }
         // android 6.0 以下通过title获取判断
 //        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {

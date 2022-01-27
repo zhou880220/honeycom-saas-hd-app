@@ -210,7 +210,7 @@ public class MainActivity  extends BaseActivity {
 //        setSettings();
         mNewWeb.setDefaultHandler(new MyHandlerCallBack(mOnSendDataListener));
         Log.i(TAG, "load url: "+url);
-        mNewWeb.loadUrl(url);
+
 
         WebSettings webSettings = mNewWeb.getSettings();
         String userAgentString = webSettings.getUserAgentString();
@@ -225,7 +225,7 @@ public class MainActivity  extends BaseActivity {
         mNewWeb.setWebViewClient(myWebViewClient);
 //
 //        //Handler做为通信桥梁的作用，接收处理来自H5数据及回传Native数据的处理，当h5调用send()发送消息的时候，调用MyHandlerCallBack
-        mNewWeb.setDefaultHandler(new MyHandlerCallBack(mOnSendDataListener));
+//        mNewWeb.setDefaultHandler(new MyHandlerCallBack(mOnSendDataListener));
 //        myChromeWebClient = new MWebChromeClient(this, mNewWebProgressbar, mWebError);
 //        MyWebViewClient myWebViewClient = new MyWebViewClient(mNewWeb, mWebError);
         myWebViewClient.setOnCityClickListener(new MyWebViewClient.OnCityChangeListener() {
@@ -234,27 +234,27 @@ public class MainActivity  extends BaseActivity {
                 myOrder = name;
                 Log.e(TAG, "onCityClick: "+name);
 
-                try {
-                    if (name.contains("/api-o/oauth")) {  //偶然几率报错  用try
-//                        mApplyBackImage1.setVisibility(View.GONE);
-                    } else {
-//                        mApplyBackImage1.setVisibility(View.VISIBLE);
-                        if (ContextCompat.checkSelfPermission(mContext, Manifest.permission.RECORD_AUDIO)
-                                != PackageManager.PERMISSION_GRANTED) {
-                            //申请READ_EXTERNAL_STORAGE权限
-                            ActivityCompat.requestPermissions(MainActivity.this, APPLY_PERMISSIONS_APPLICATION,
-                                    ADDRESS_PERMISSIONS_CODE);
-                        }
-                    }
-                } catch (Exception e) {
-                    if (ContextCompat.checkSelfPermission(mContext, Manifest.permission.RECORD_AUDIO)
-                            != PackageManager.PERMISSION_GRANTED) {
-                        //申请READ_EXTERNAL_STORAGE权限
-                        ActivityCompat.requestPermissions(MainActivity.this, APPLY_PERMISSIONS_APPLICATION,
-                                ADDRESS_PERMISSIONS_CODE);
-                    }
-//                    mApplyBackImage1.setVisibility(View.VISIBLE);
-                }
+//                try {
+//                    if (name.contains("/api-o/oauth")) {  //偶然几率报错  用try
+////                        mApplyBackImage1.setVisibility(View.GONE);
+//                    } else {
+////                        mApplyBackImage1.setVisibility(View.VISIBLE);
+//                        if (ContextCompat.checkSelfPermission(mContext, Manifest.permission.RECORD_AUDIO)
+//                                != PackageManager.PERMISSION_GRANTED) {
+//                            //申请READ_EXTERNAL_STORAGE权限
+//                            ActivityCompat.requestPermissions(MainActivity.this, APPLY_PERMISSIONS_APPLICATION,
+//                                    ADDRESS_PERMISSIONS_CODE);
+//                        }
+//                    }
+//                } catch (Exception e) {
+//                    if (ContextCompat.checkSelfPermission(mContext, Manifest.permission.RECORD_AUDIO)
+//                            != PackageManager.PERMISSION_GRANTED) {
+//                        //申请READ_EXTERNAL_STORAGE权限
+//                        ActivityCompat.requestPermissions(MainActivity.this, APPLY_PERMISSIONS_APPLICATION,
+//                                ADDRESS_PERMISSIONS_CODE);
+//                    }
+////                    mApplyBackImage1.setVisibility(View.VISIBLE);
+//                }
 
 //                getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
 //                if (name != null) {
@@ -289,7 +289,8 @@ public class MainActivity  extends BaseActivity {
         });
 //        mNewWeb.setWebViewClient(myWebViewClient);
 //        mNewWeb.setWebChromeClient(myChromeWebClient);
-//        mNewWeb.loadUrl(url);
+        Log.e(TAG, "load url: "+url);
+        mNewWeb.loadUrl(url);
 //
 //        MWebChromeClient myChromeWebClient = new MWebChromeClient(this, mNewWebProgressbar);
 //        mNewWeb.setWebChromeClient(myChromeWebClient);
@@ -700,7 +701,7 @@ public class MainActivity  extends BaseActivity {
                 try {
                     // 权限申请
                     if (ContextCompat.checkSelfPermission(MainActivity.this,
-                            Manifest.permission.RECORD_AUDIO)
+                            Manifest.permission.CAMERA)
                             != PackageManager.PERMISSION_GRANTED) {
                         Log.e(TAG, "handler: no permission");
                         //权限还没有授予，需要在这里写申请权限的代码
