@@ -4,17 +4,17 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.honeycom.saas.mobile",
+  "applicationId": "com.honeycom.saas.hd",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "properties": [],
-      "versionCode": 2,
-      "versionName": "1.0.1",
+      "versionCode": 8,
+      "versionName": "1.0.7",
       "enabled": true,
-      "outputFile": "honeycom-saas-app_v1.0.1_release_1118.apk"
+      "outputFile": "honeycom-saas-hd-app_v1.0.7_release_0209.apk"
     }
   ]
 }
